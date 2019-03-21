@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+head{
+    background: #ffffff;
+}
+.head-container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.head-container ul{
+    display: flex;
+}
+.head-container ul li {
+    text-transform: uppercase;
+    margin-left: 29px;
+}
+
+
+article{
+    background: #f5f5f5;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+
+}
+.article-container{
+    padding: 38px;
+    height: 610px;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    width: 470px;
+}
+.text-form{
+    display: flex;
+}
+form{
+    width: 670px;
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    width: 320px;
+    height: 48px;
+}
+.email{
+    width: 320px;
+    height: 48px;
+}
+.title{
+    width: 670px;
+    height: 48px;
+    margin-bottom: 30px;
+}
+.comment{
+    width: 670px;
+    height: 170px;
+    margin-bottom: 30px;
+}
+button{
+    width: 180px;
+    height: 54px;
+}
+.block-input{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+footer{
+    color: #bcbcbc;
+    background: #141414;
+}
+.footer-container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
