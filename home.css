@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Nunito+Sans:400,700');
+body{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Nunito Sans', sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: unset;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+head{
+    background: #ffffff;
+}
+.head-container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.head-container ul{
+    display: flex;
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
+.head-container ul li {
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+.menu a:hover,
+.menu a:focus{
+    color: #10c9c3;
+}
+article{
+    background: #f5f5f5;
+}
+.article-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 100px 0 100px 0;
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+
+    padding-top: 97px;
+    color: #bcbcbc;
+    background: #141414;
+}
+.footer-container{
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 102px;
+}
+footer .ul{
+    font-size: 15px;
+    line-height: 22px;
+}
+.footer-medium-text{
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 600;
+}
+.footer-1{
+    margin-right: auto;
+}
+.footer-2{
+    display: flex;
+}
+.social{
+    margin-left: auto;
+    margin-right: 34px;
+}
+.news{
+    margin-right: 134px;
+}
+.project{
+    margin-right: 56px;
+}
+.contact{
+    margin-right: 145px;
+}
