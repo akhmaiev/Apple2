@@ -54,7 +54,7 @@ head{
     text-transform: uppercase;
     margin-left: 35px;
 }
-#home-menu{
+#about-menu{
     color: #10c9c3;
 }
 .menu a:hover,
@@ -67,58 +67,6 @@ article{
     flex-direction: column;
 }
 
-.article-container{
-    margin-left: auto;
-    margin-right: auto;
-
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-top: 100px;
-    width: 1349px;
-}
-.article-text{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 100px;
-}
-.article-img{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.article-img img{
-    min-height: 300px;
-    width: auto;
-}
-.items-row{
-    display: flex;
-    flex-direction: row;
-}
-img {
-    min-height: inherit;
-    min-width: inherit;
-}
-.items {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background: rgb(69, 69, 69);
-
-    border: none;
-    width: 335px;
-    height: 300px;
-    flex-grow: 1;
-}
-.items img:hover {
-    background-color: #10c9c3;
-    -webkit-filter: opacity(30%);
-}
 footer{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 15px;

@@ -40,6 +40,11 @@ head{
     margin-top: 38px;
     margin-bottom: 38px;
 }
+.head-container a{
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
 .head-container ul{
     display: flex;
 
@@ -50,6 +55,9 @@ head{
 .head-container ul li {
     text-transform: uppercase;
     margin-left: 35px;
+}
+#contact-menu{
+    color: #10c9c3;
 }
 .menu a:hover,
 .menu a:focus{
