@@ -108,7 +108,7 @@ img {
     padding: 0;
     display: flex;
     justify-content: center;
-    background: rgb(69, 69, 69);
+    background: rgb(16, 201, 195);
 
     border: none;
     width: 335px;
@@ -117,7 +117,7 @@ img {
 }
 .items img:hover {
     background-color: #10c9c3;
-    -webkit-filter: opacity(30%);
+    -webkit-filter: opacity(40%);
 }
 footer{
     font-family: 'Nunito Sans', sans-serif;
