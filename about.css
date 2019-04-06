@@ -40,8 +40,8 @@ head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 38px;
-    margin-bottom: 38px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 .head-container ul{
     display: flex;
@@ -88,22 +88,86 @@ article{
     padding-bottom: 120px;
 }
 .text-info{
+    font-weight: 500;
     height: 240px;
+    display: flex;
+    align-items: center;
     color: #ffffff;
     background: #10c9c3;
+}
+.text-info__up{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.text-info ul{
+    margin-left: 100px;
+    display: flex;
+}
+.text-info li{
+    font-size: 18px;
+    display: flex;
+    padding-right: 90px;
+}
+.text-info img{
+    object-fit: contain;
+    padding-right: 30px;
 }
 .middle-container{
     display: flex;
     height: 570px;
-    columns: #000;
+    color: #000;
     background: #f5f5f5;
 }
+.middle-container__img{
+    width: 670px;
+    background: #dee8eb;
+}
+.middle-text{
+    margin-top: 100px;
+    width: 560px;
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #787878;
+}
+.middle-text p,
+.middle-text h2,
+.signature{
+    margin-left: 85px;
+    margin-bottom: 35px;
+}
+h2 {
+    font-weight: 600;
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+}
+
 .text-bottom{
     color: #000;
     background: #ffffff;
     height: 398px;
 }
+.text-bottom__wrapper{
+    display: block;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+}
+button{
+    margin-top: 35px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
 
+    width: 180px;
+    height: 54px;
+    margin-bottom: 100px;
+    border: none;
+    color: #ffffff;
+    background: #10c9c3;
+    text-transform: uppercase;
+}
 footer{
     font-family: 'Nunito Sans', sans-serif;
     font-size: 15px;

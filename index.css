@@ -26,7 +26,7 @@ h1{
     font-family: "Montserrat", sans-serif;
     font-size: 38px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 28px;
     color: #000000;
 }
 head{
@@ -34,14 +34,15 @@ head{
 }
 .head-container{
     width: 1170px;
+    height: 30px;
     margin-left: auto;
     margin-right: auto;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 38px;
-    margin-bottom: 38px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 .head-container ul{
     display: flex;
@@ -67,7 +68,7 @@ article{
     flex-direction: column;
 }
 
-.article-container{
+.main__container{
     margin-left: auto;
     margin-right: auto;
 
@@ -75,26 +76,31 @@ article{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-top: 100px;
+    padding-top: 97px;
     width: 1349px;
 }
-.article-text{
+.main__text{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 90px;
 }
-.article-img{
+.main__text h1{
+    font-size: 38px;
+}
+.main__img-container{
+    background: #dee8eb;
     width: 100%;
     display: flex;
     flex-direction: column;
 }
-.article-img img{
+.main__img img{
     min-height: 300px;
     width: auto;
 }
 .items-row{
+    width: 1200px;
     display: flex;
     flex-direction: row;
 }
@@ -102,7 +108,7 @@ img {
     min-height: inherit;
     min-width: inherit;
 }
-.items {
+.main__items {
     position: relative;
     margin: 0;
     padding: 0;
@@ -115,9 +121,10 @@ img {
     height: 300px;
     flex-grow: 1;
 }
-.items img:hover {
+.main__items img:hover {
     background-color: #10c9c3;
     -webkit-filter: opacity(40%);
+
 }
 footer{
     font-family: 'Nunito Sans', sans-serif;
@@ -128,7 +135,7 @@ footer{
     color: #bcbcbc;
     background: #141414;
 }
-.footer-container{
+.footer__container{
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
@@ -140,17 +147,17 @@ footer .ul{
     font-size: 15px;
     line-height: 22px;
 }
-.footer-medium-text{
+.footer__text-medium{
     font-family: "Montserrat", sans-serif;
     color: #ffffff;
     font-size: 18px;
     margin-bottom: 24px;
     font-weight: 600;
 }
-.footer-1{
+.footer__1{
     margin-right: auto;
 }
-.footer-2{
+.footer__2{
     display: flex;
 }
 .social{

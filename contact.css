@@ -2,7 +2,6 @@
 body{
     margin: 0;
     padding: 0;
-
     font-family: 'Nunito Sans', sans-serif;
 }
 ul{
@@ -10,11 +9,6 @@ ul{
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
 a {
     text-decoration: none;
     color: unset;
@@ -42,8 +36,8 @@ head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 38px;
-    margin-bottom: 38px;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 .head-container a{
     height: 25px;
@@ -71,7 +65,7 @@ head{
 article{
     background: #f5f5f5;
 }
-.article-container{
+.main__container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -88,10 +82,10 @@ article{
     display: flex;
     justify-content: space-between;
 }
-.text{
+.main__text{
     width: 380px;
 }
-.text p{
+.main__text p{
     color: #787878;
     margin-bottom: 28px;
 }
@@ -99,7 +93,7 @@ article{
     font-weight: 700;
     color: #000000;
 }
-.line-height{
+.main__line-height{
     line-height: 36px;
 }
 form{
@@ -157,7 +151,7 @@ button{
     background: #10c9c3;
     text-transform: uppercase;
 }
-.block-input{
+.form__row1{
     display: flex;
     justify-content: space-between;
 }
